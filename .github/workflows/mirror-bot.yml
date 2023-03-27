@@ -8,9 +8,9 @@ on:
    
 env:
   # Change these values if you have forked it for your own works
-  GitHubMail: "mirrorbot81@gmail.com"
-  GitHubName: "mirrorbot81" 
-  Branch: "heroku"
+  GitHubMail: "Ifoeiciwkck258096@protonmail.com"
+  GitHubName: "Ifoeiciwkck258096" 
+  Branch: "master"
 
 jobs:
   build:
@@ -42,7 +42,7 @@ jobs:
           docker image ls
 
       - name: running Docker
-        timeout-minutes: 340
+        timeout-minutes: 270
         continue-on-error: true
         run: |
           docker run --privileged --rm -i mirror-bot
